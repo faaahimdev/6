@@ -11,17 +11,21 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 /* shared style */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.dark-1{
+
+.dark-1 {
     color: #181818;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     background-color: #FD6E0A;
     font-weight: bold;
@@ -30,29 +34,33 @@
     border-radius: 5px;
     border: none;
 }
-.section-title{
-font-size: 35px;
-font-weight: bold;
-color: #181818;
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    background-color: #FFFFFF;
 }
-.section-description{
+
+.section-description {
     font-size: 18px;
     color: #757575;
-
+    background-color: #FFFFFF;
 }
-.secondary-bg{
+
+.secondary-bg {
     background: #FFF8F3;
 }
 
 
 /* end shared styles */
 
-.header{
+.header {
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     margin: 38px 0px 44px 25px;
     background-position: top left, bottom right;
-    
+
 }
 
 
@@ -63,19 +71,23 @@ nav {
     justify-content: space-between;
     margin: 0px 228px;
 }
-.nav-title{
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 51px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
 }
@@ -83,30 +95,36 @@ nav ul li a{
 /* end nav styles */
 
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0px 35px 0px 232px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
-.banner-greetings{
-    font-weight: 600 ;
+
+.banner-greetings {
+    font-weight: 600;
     font-size: 45px;
 }
-.banner-title{
-font-size: px;
-font-weight: bold;
+
+.banner-title {
+    font-size: px;
+    font-weight: bold;
 }
-.banner-picture{
+
+.banner-picture {
     width: 584px;
 }
-.description{
+
+.description {
     color: #757575;
 }
+
 /* main styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -115,21 +133,25 @@ main{
 
 
 /* about styles */
-.about{
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     /* margin-top: 130px; */
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-around;
+    background-color: #FFFFFF;
 }
-.item-title{
+
+.item-title {
     font-size: 20px;
     color: #757575;
 }
-.item-description{
+
+.item-description {
     font-weight: 600;
     font-size: 20px;
     color: #474747;
